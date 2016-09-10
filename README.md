@@ -99,25 +99,25 @@ Answers you type into fill-in-the-blanks in forms on [commonform.org] are _never
 
 You can also make changes to forms on [commonform.org], creating new forms.  None of your changes are sent to Common Form's servers unless you say so.
 
-So, for example, if you find a form NDA that you like, make a change, and send a link to a colleague, they may not be able to access your updated form.  A Common Form publisher has to "donate" or "publish" the form before others can request and receive it from the server.
+So, for example, if you find a form NDA that you like, make a change, and send a link to a colleague, they may not be able to access your updated form.  A Common Form publisher has to "save" or "publish" the form before others can request and receive it from the server.
 
-### Donations
+### Saving Forms
 
-Donating a form means giving Common Form's server a copy of the form for storage.  Each donated form, and each part of every donated form, is stored by hash.
+Saving a form means giving Common Form's server a copy of the form for storage.  Each saved form, and each part of every saved form, is stored by hash.
 
-Anyone that asks for a donated form by hash gets a copy.  The server only says "Yes, I have a form with that hash.  Here's a copy." or "No, I don't have a form with that hash at this time."  You use your publisher name and password to donate a form only to show that you have permission to make donations.  The server doesn't remember when forms where donated, who donated them, or in what context it first saw any particular part of a form.
+Anyone that asks for a saved form by hash gets a copy.  The server only says "Yes, I have a form with that hash.  Here's a copy." or "No, I don't have a form with that hash at this time."  You use your publisher name and password to save a form only to show that you have permission to save forms.  The server doesn't remember when forms where saved, who saved them, or in what context it first saw any particular part of a form.
 
-Nor does the server index donated forms in any way.  They don't appear in the list of publications under anyone's name.  Search results by term or heading don't include them.  They just sit in storage until someone asks for them by hash.
+Nor does the server index saved forms in any way.  They don't appear in the list of publications under anyone's name.  Search results by term or heading don't include them.  They just sit in storage until someone asks for them by hash.
 
 As a result, if you have a hash, but the server doesn't have a copy, it's very, very hard to find out anything about what the corresponding form says.  It's also very, very hard to guess the hash of a form without knowing its content.  Asking for every possible form by hash would take, effectively, forever.  There are way, way too many possible hashes.
 
-Because the server doesn't attribute donations to anyone, the server does not allow publishers to rescind donations.  It's never clear whether any particular publisher was the only one to donate a particular form, or to rely on it being available from the server.
+Because the server doesn't attribute saved forms to anyone, the server does not allow publishers to rescind saved forms.  It's never clear whether any particular publisher was the only one to save a particular form, or to rely on it being available from the server.
 
-_The server does not make donated forms easy to find, but you should still be very careful about what you donate to the server.  After a drafting session, before cliking the button to donate, take a break.  Clear your mind, then return to the dfraft and review it top to bottom, with fresh eyes.  Only then click the button to donate._
+_The server does not make saved forms easy to find, but you should still be very careful about what you save to the server.  After a drafting session, before cliking the button to save, take a break.  Clear your mind, then return to the dfraft and review it top to bottom, with fresh eyes.  Only then click the button to save._
 
 ### Publications
 
-Publishing a form means donating it _plus_:
+Publishing a form means saving it _plus_:
 
 1.  The server lists the form as a particular edition of a project under your name.
 
